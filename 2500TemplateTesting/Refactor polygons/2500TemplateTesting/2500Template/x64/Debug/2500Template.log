@@ -1,0 +1,15 @@
+﻿  Main.cpp
+C:\Users\ethan\source\repos\LabWork\2500TemplateTesting\Refactor polygons\2500TemplateTesting\2500Template\Main.cpp(17,28): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric(34,27): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\ethan\source\repos\LabWork\2500TemplateTesting\Refactor polygons\2500TemplateTesting\2500Template\Main.cpp(24,21): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<double,double>>>>,double,Polygon::linear_centroid::<lambda_1>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=double,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<double,double>>>>,
+              _Fn=Polygon::linear_centroid::<lambda_1>
+          ]
+  2500Template.vcxproj -> C:\Users\ethan\Source\Repos\LabWork\2500TemplateTesting\Refactor polygons\2500TemplateTesting\x64\Debug\2500Template.exe

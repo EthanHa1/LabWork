@@ -1,0 +1,14 @@
+﻿  2500Testing.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric(34,27): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\ethan\Source\Repos\LabWork\2500TemplateTesting\Refactor polygons\2500TemplateTesting\2500Template\Main.cpp(24,21): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<double,double>>>>,double,Square::linear_centroid::<lambda_a6b97a0a86a8bef16b0b1b9c601b06ef>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=double,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<double,double>>>>,
+              _Fn=Square::linear_centroid::<lambda_a6b97a0a86a8bef16b0b1b9c601b06ef>
+          ]
+  2500Testing.vcxproj -> C:\Users\ethan\Source\Repos\LabWork\2500TemplateTesting\Refactor polygons\2500TemplateTesting\x64\Debug\2500Testing.dll
