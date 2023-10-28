@@ -1,0 +1,30 @@
+﻿  pch.cpp
+  2500Testing.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip(40,23): error C2338: static_assert failed: 'wrong character type for setfill'
+C:\Users\ethan\Desktop\UNSW\MTRN2500\2500TemplateTesting\Loading bar\2500Template\Main.cpp(10,57): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::_Fillobj<const char *> &)' being compiled
+C:\Users\ethan\Desktop\UNSW\MTRN2500\2500TemplateTesting\Loading bar\2500Template\Main.cpp(10,57): message : see the first reference to 'std::operator <<' in 'main'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip(42,14): error C2665: 'std::basic_ios<char,std::char_traits<char>>::fill': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ios(103,30): message : could be '_Elem std::basic_ios<_Elem,std::char_traits<char>>::fill(_Elem) noexcept'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip(42,14): message : '_Elem std::basic_ios<_Elem,std::char_traits<char>>::fill(_Elem) noexcept': cannot convert argument 1 from 'const _Elem' to '_Elem'
+          with
+          [
+              _Elem=char
+          ]
+          and
+          [
+              _Elem=const char *
+          ]
+          and
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip(42,26): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip(42,14): message : while trying to match the argument list '(const _Elem)'
+          with
+          [
+              _Elem=const char *
+          ]
